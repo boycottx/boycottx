@@ -1,0 +1,29 @@
+[
+  {
+    "id" : 1,
+    "priority": 2,
+    "action": { "type": "redirect", "redirect": { "extensionPath": "/redirect.html?url=google.com" } },
+    "condition": {
+      "urlFilter": "*google.com*",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id" : 2,
+    "priority": 2,
+    "action": { "type": "redirect", "redirect": { "extensionPath": "/redirect.html?url=yahoo.com" } },
+    "condition": {
+      "urlFilter": "*yahoo.com*",
+      "resourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id" : 3,
+    "priority": 2,
+    "action": { "type": "redirect", "redirect": { "extensionPath": "/redirect.html?url=linkedin.com" } },
+    "condition": {
+      "urlFilter": "*linkedin.com*",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]
